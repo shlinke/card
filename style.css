@@ -24,9 +24,9 @@ body {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
-    
+
 #name {
-    color: #b05cff;
+    color: #ac1ab9;
     text-decoration: underline;
     text-decoration-style: wavy;
 }
@@ -48,24 +48,23 @@ body {
 #footer2 {
     transition: transform 0.2s;
 }
+
 #footer1:hover {
     color: #ac1ab9;
-    transition: transform 0.2s;
     transform: scale(1.15);
 }
 
 #footer2:hover {
     color: #ac1ab9;
-    transition: transform 0.2s;
     transform: scale(1.15);
 }
 
 #highway {
     transition: transform 0.2s;
 }
+
 #highway:hover {
     transform: scale(1.25);
-    transition: transform 0.2s;
 }
 
 #backBtn {
@@ -76,22 +75,31 @@ body {
     height: 30px;
     font-size: 20px;
 }
+
 #backBtn:hover {
     transform: scale(1.25);
-    transition: transform 0.2s;
 }
 
 #portfolio {
     transition: transform 0.2s;
 }
+
 #portfolio:hover {
     transform: scale(1.125);
-    transition: transform 0.2s;
 }
+
 #homePad {
     transition: transform 0.2s;
 }
+
 #homePad:hover {
     transform: scale(1.125);
+}
+
+#GitHubStreak {
     transition: transform 0.2s;
+}
+
+#GitHubStreak:hover {
+    transform: scale(1.125);
 }
