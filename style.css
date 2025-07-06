@@ -1,0 +1,97 @@
+body {
+    margin: 20px;
+    align-items: center;
+    font-family: 'Gotham SSm A', 'Gotham SSm B', sans-serif;
+    background-color: #fadbf7;
+}
+
+.avatar {
+    width: 150px;
+}
+
+.card {
+    width: 400px;
+    padding: 20px;
+    text-align: center;
+    background: #ffb5ff;
+    border-bottom: 6px solid #ffa3ff;
+    border-top: 6px solid #ffa3ff;
+    border-left: 6px solid #ffa3ff;
+    border-right: 6px solid #ffa3ff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+    
+#name {
+    color: #b05cff;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
+
+.footer {
+    display: inline-block;
+    justify-content: space-between;
+    font-size: 30px;
+    font-weight: bold;
+    color: #df72e9;
+    text-shadow: #2b2839 0.1em 0.1em
+}
+
+
+#footer1 {
+    transition: transform 0.2s;
+}
+
+#footer2 {
+    transition: transform 0.2s;
+}
+#footer1:hover {
+    color: #ac1ab9;
+    transition: transform 0.2s;
+    transform: scale(1.15);
+}
+
+#footer2:hover {
+    color: #ac1ab9;
+    transition: transform 0.2s;
+    transform: scale(1.15);
+}
+
+#highway {
+    transition: transform 0.2s;
+}
+#highway:hover {
+    transform: scale(1.25);
+    transition: transform 0.2s;
+}
+
+#backBtn {
+    transition: transform 0.2s;
+    background-color: #df03df;
+    border-color: #ac1ab9;
+    width: 75px;
+    height: 30px;
+    font-size: 20px;
+}
+#backBtn:hover {
+    transform: scale(1.25);
+    transition: transform 0.2s;
+}
+
+#portfolio {
+    transition: transform 0.2s;
+}
+#portfolio:hover {
+    transform: scale(1.125);
+    transition: transform 0.2s;
+}
+#homePad {
+    transition: transform 0.2s;
+}
+#homePad:hover {
+    transform: scale(1.125);
+    transition: transform 0.2s;
+}
